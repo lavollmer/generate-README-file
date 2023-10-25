@@ -63,6 +63,7 @@ function writeToFile(questions) {
 
 // TODO: Create a function to initialize app
 function init() {
+  generateMarkdown()
   writeToFile()
 }
 
