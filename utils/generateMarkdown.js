@@ -72,4 +72,4 @@ function generateMarkdown(questions) {
 `;
 }
 
-module.exports = { generateMarkdown };
+module.exports = generateMarkdown;
