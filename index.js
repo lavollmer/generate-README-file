@@ -68,15 +68,16 @@ function prompt() {
 
 // TODO: Create a function to write README file
 function writeToFile(answers) {
-  fs.writeFile('README.md', string(answers), (err) =>
+  const data = JSON.stringify(answers)
+  fs.writeFile('README.md', data, (err) =>
     err ? console.error(err) : console.log('Done!'))
 }
 
 // TODO: Create a function to initialize app
 function init() {
   return prompt().then(answers => {
-    writeToFile()
-    generateMarkdown()
+    writeToFile(answers)
+    generateMarkdown(answers)
   })
 }
 
