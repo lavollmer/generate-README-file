@@ -50,20 +50,30 @@ function generateMarkdown(answers) {
   ${answers.description}
 
   ## Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contribution](#contribution)
+  5. [Tests](#tests)
 
-  ## Installation
+  <a id="installation></a>
+  ## Installation 
  ${answers.installation}
 
-  ## Usage
+ <a id="usage"></a>
+  ## Usage 
   ${answers.usage}
 
+  <a id="license"></a>
   ## License
     ${answers.license}
     ${renderLicenseSection(answers)}
 
+  <a id="contribution"></a>
   ## Contribution
    ${answers.contribution}
 
+  <a id="tests"></a>
   ## Tests
      ${answers.test}
 

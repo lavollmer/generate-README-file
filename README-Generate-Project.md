@@ -8,7 +8,6 @@ The motivation for the project was to create a README file generator to automate
 
 Things that could be improved are adding more questions to make it easier for the user to fill in the information (not to forget anything). An example would be in the project description, instead of asking for a general project description, you could break it down to asking for technical requirements, project information, things you would improve in the project. All these things would be put into the section of project description. It would be a more detailed approach to creating a README file.
 
-
 ## Usage
 
 Examples of use include the end user creating a README file for any project he/she is working on.
