@@ -15,6 +15,7 @@ Examples of use include the end user creating a README file for any project he/s
 Video Submission:
 
 Screenshots:
+![Preview Screenshot]()
 
 ## Credits
 

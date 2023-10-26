@@ -10,12 +10,13 @@
   3. [License](#license)
   4. [Contribution](#contribution)
   5. [Tests](#tests)
+  6. [Questions](#questions)
 
-  <a id="installation></a>
+  <a id="installation"></a>
   ## Installation 
  l
 
- <a id="usage"></a>
+  <a id="usage"></a>
   ## Usage 
   l
 
@@ -30,9 +31,10 @@
 
   <a id="tests"></a>
   ## Tests
-     l
+    l
 
+  <a id="questions"></a>
   ## Questions
-     For further questions, please reach out to the email or github below. 
+     For further questions, please reach out to the email or github profile below. 
      Email: l
-     Github: l
+     Github: https://github.com/l

@@ -1,14 +1,18 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
+
+//inquirer package
 const inquirer = require('inquirer');
+
+// use generateMarkdown export
 const { generateMarkdown } = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
+// questions Array created with required questions
 const questions = [
   {
     type: 'input',
-    name: 'projectName',
     message: 'What is your project title?',
+    name: 'projectName',
   },
   {
     type: 'input',
@@ -39,11 +43,7 @@ const questions = [
     type: 'list',
     message: 'What is your license?',
     name: 'license',
-    choices: ["Boost Software License 1.0",
-      "MIT license",
-      "Apache License",
-      "The Unlicense",
-      "GNU General Public License v3.0"]
+    choices: ["Boost Software License 1.0", "MIT license", "Apache License", "The Unlicense", "GNU General Public License v3.0"]
   },
   {
     type: 'input',
@@ -52,7 +52,7 @@ const questions = [
   },
   {
     type: 'input',
-    message: `What is your Github username?`,
+    message: 'What is your Github username?',
     name: 'github'
   }]
 
@@ -65,12 +65,14 @@ function prompt() {
 }
 
 // TODO: Create a function to write README file
+// writeFile to README.md using answers
 function writeToFile(answers) {
   fs.writeFile('README.md', answers, (err) =>
     err ? console.error(err) : console.log('Finished!'))
 }
 
 // TODO: Create a function to initialize app
+// Use answers in generateMarkdown function to writeToFile
 function init() {
   return prompt().then(answers => {
     writeToFile(generateMarkdown(answers))
