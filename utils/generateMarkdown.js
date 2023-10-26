@@ -69,8 +69,8 @@ function generateMarkdown(answers) {
 
   ## Questions
      For further questions, please reach out to the email or github below. 
-     ${answers.email}
-      ${answers.github}
+     Email: ${answers.email}
+     Github: ${answers.github}
 `;
 }
 

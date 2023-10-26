@@ -1,28 +1,28 @@
 
-  # l
+  # README-generate
   
   ## Project Description
-  l
+  It was a project involving learning about READMEs.
 
   ## Table of Contents
 
   ## Installation
- l
+ Install at your own risk
 
   ## Usage
-  l
+  Use to help with READMEs.
 
   ## License
     Boost Software License 1.0
     undefined
 
   ## Contribution
-   l
+   Contributors were many
 
   ## Tests
-     l
+     Test sparingly
 
   ## Questions
      For further questions, please reach out to the email or github below. 
-     l
-      l
+     l@gmail.com
+      lavoll
