@@ -1,8 +1,8 @@
 
-  # l
+  # README-generator
   
   ## Project Description
-  l
+  It was project aimed at creating a README through user generated information.
 
   ## Table of Contents
   1. [Installation](#installation)
@@ -14,11 +14,11 @@
 
   <a id="installation"></a>
   ## Installation 
- l
+ Install accordingly.
 
   <a id="usage"></a>
   ## Usage 
-  l
+  Use when you need to generate a README quickly.
 
   <a id="license"></a>
   ## License
@@ -27,14 +27,14 @@
 
   <a id="contribution"></a>
   ## Contribution
-   l
+   Contributors include the U of MN bootcamp.
 
   <a id="tests"></a>
   ## Tests
-    l
+    Test as needed.
 
   <a id="questions"></a>
   ## Questions
      For further questions, please reach out to the email or github profile below. 
-     Email: l
-     Github: https://github.com/l
+     Email: laura@gmail.com
+     Github: https://github.com/lavollmer

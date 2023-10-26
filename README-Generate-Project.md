@@ -12,10 +12,8 @@ Things that could be improved are adding more questions to make it easier for th
 
 Examples of use include the end user creating a README file for any project he/she is working on.
 
-Video Submission:
+Video Submission: ![Video of Project] (https://drive.google.com/file/d/1b7N3UpGyZxDmv_K4b5RlnOpCS-sRDXKj/view?usp=drive_link)
 
-Screenshots:
-![Preview Screenshot]()
 
 ## Credits
 
