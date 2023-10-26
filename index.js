@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const { generateMarkdown } = require('./utils/generateMarkdown');
-var answers = '';
+// var answers = '';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -61,7 +61,7 @@ const questions = [
 function prompt() {
   return inquirer.prompt(questions).then(answers => {
     console.log(answers);
-    var answers = "";
+    // var answers = "";
     return answers;
   })
 }
